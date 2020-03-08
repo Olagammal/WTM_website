@@ -1,0 +1,235 @@
+body
+{
+	margin: 0;
+	background-image: url("images/bg1.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.navbar
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	/*background-color: rgba(2, 2, 2, 0.4);*/
+	background-color: rgb(0, 204, 0);
+
+}
+.navbar li
+{
+	float: right;
+}
+.navbar a
+{
+	display:block;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+.navbar img
+{
+	width: 80px;
+	height: 80px;
+	padding:0;
+	margin: 0;
+}
+.navbar a:hover
+{
+
+	background-color: black;
+	color: red;
+}
+
+.click a
+{
+	display: block;
+	margin: 0;
+	padding:10px 25px 10px 25px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(0, 204, 0);
+	text-align:center;
+	text-decoration:none; 
+	border:none; 
+	border-radius: 20px;
+	cursor:pointer;
+	display: inline-block;
+}
+#click1
+{
+	position: absolute;
+	top: 80%;
+	left:35%;
+	/*float: left;*/
+}
+#click2
+{
+	position: absolute;
+	top: 80%;
+	left:55%;
+	float: right;
+}
+.click a:hover
+{
+	color:red;
+	background-color:black; 
+}
+.main p
+{
+	position: absolute;
+	padding: 20px;
+	text-align:center;
+	display: inline-block;
+	font-size: 30px;
+	color: #ff3333;
+	font-weight: bold;
+	line-height: 33px;	
+	font-family: OCR A Std, monospace;
+}
+.main h1
+{
+	text-align:center;
+	font-size: 90px;
+	color: #7700e6;
+	text-align-last: auto;
+}
+
+/*for login page*/
+.box
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: rgba(2, 2, 2, 0.9);
+	box-sizing: border-box;
+	padding: 40px;
+	border-radius:20px;
+	color: white;
+	height: 500px;
+	width: 500px;
+}
+.box h2
+{
+	text-align: center;
+	padding: 0;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: white;
+}
+.box p
+{
+	font-weight: bold;
+	font-size: 20px;
+	color:white;
+}
+.box img
+{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: -100px;
+	left: calc(50% - 100px);
+}
+.box a
+{
+	float: right;
+	font-size: 18px;
+	color: #a94dff;
+}
+.box a:hover
+{
+	color: white;
+}
+.inputbox
+{
+	width: 100%;
+	margin-bottom: 18px;
+	padding-bottom:18px;
+	border:none;
+	border-bottom: black solid 2px;
+	background: transparent;
+	color: white;
+	font-size: 15px;
+	position:relative;
+	overflow: hidden;
+	outline: none;
+}
+#link1
+{
+	float: left;
+}
+#link2
+{
+	float: right;
+}
+.submit
+{
+	margin-top: 30px;
+	margin-right: 70px;
+	margin-bottom: 30px;
+	padding:10px 25px 10px 25px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(0, 204, 0);
+	text-align:center;
+	text-decoration:none; 
+	border:none; 
+	border-radius: 20px;
+	cursor:pointer;
+	position: center;
+	width: 100%
+}
+input[type="submit"]:hover {
+
+    color: white;
+    background-color: red;
+}
+
+/*for sign up page*/
+.box2
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-30%);
+	background: rgba(2, 2, 2, 0.9);
+	box-sizing: border-box;
+	padding: 40px;
+	border-radius:20px;
+	color: white;
+	height: 960px;
+	width: 500px;
+}
+.box2 h2
+{
+	text-align: center;
+	padding: 0;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: white;
+}
+.box2 p
+{
+	font-weight: bold;
+	font-size: 20px;
+	color:white;
+}
+.box2 img
+{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: -100px;
+	left: calc(50% - 100px);
+}

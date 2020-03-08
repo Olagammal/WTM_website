@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/ico" href="images/icon.ico"/>
+	<link rel="stylesheet" type="text/css" href="home_style.css">
+</head>
+<body>
+
+	<nav>
+		<div>
+			<ul class="navbar">
+				<!--<li><a href="home.html">HOME</a></li>-->
+				<li><a href="home.html">CONTACT US</a></li>
+				<li><a href="home.html">ABOUT</a></li>
+				<li><a href="login.html">LOGIN</a></li>
+				<li><a href="signup.html">SIGN UP</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="box2">
+		<h2> SIGN UP</h2>
+		<form name="myform" action="home.html" onsubmit="return validate()" method="post">
+			<img src="images/login_icon.png">
+			<p>Name:</p>	
+			<input type="text" name="name" placeholder="Enter your username" class="inputbox" id="name">
+			<p>Age:</p>	
+			<input type="text" name="password" placeholder="Enter your password" class="inputbox" id="age">
+			<p>E-mail:</p>	
+			<input type="e-mail" name="mail" placeholder="Enter your mail" class="inputbox" id="mail">
+			<p>Contact number:</p>	
+			<input type="text" name="contact" placeholder="Enter your contact" class="inputbox" id="contact">
+			<p>Password:</p>
+			<input type="password" name="password" placeholder="Enter your password" class="inputbox" id="password">
+			<p>Re-type Password:</p>
+			<input type="password" name="repassword" placeholder="Enter your password again" class="inputbox" id="repassword">
+			<input type="submit" name="submit" value="Create account" class="submit">
+		</form>
+	</div>
+
+	<script type="text/javascript" src="signup_js.js">	</script>
+
+	<!--<script type="text/javascript" src="signup_js.js"></script>-->
+</body>
+</html>
