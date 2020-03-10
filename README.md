@@ -16,4 +16,4 @@ I have learnt the use of forms and the alignment of various elements more clearl
 	- Logo can be used in navbar.
 	- The webpage can be a theme-specific one.
 	- The overall layout can be improved.
-	- Font style can be changed.
+	- Font style in the homepage can be changed.
